@@ -76,7 +76,10 @@ nav li a:hover {
 }
 
 .blog-posts__content img{
-    width:75%;
+    width:100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .blog-posts__post a {
