@@ -32,13 +32,12 @@ nav ul {
     display: flex;
     justify-content: space-around;
     margin: 2rem;
+    background-color: #d95e52;
+    border-radius: 15px;
 }
 
 nav li {
-    background-color: #d95e52;
     padding: 1rem;
-    border-radius: 15px;
-    min-width: 60px;
 }
 
 nav li a:link {
@@ -46,6 +45,10 @@ nav li a:link {
     color: #f2f2f2;
     font-weight: 700;
     letter-spacing: .1rem;
+}
+
+nav li a:hover {
+    color: #f2b4ae;
 }
 
 .blog-posts{
@@ -70,6 +73,10 @@ nav li a:link {
 .blog-posts__post{
     justify-content: space-between;
     padding: 0 1rem 1rem 1rem;
+}
+
+.blog-posts__content img{
+    width:75%;
 }
 
 .blog-posts__post a {
