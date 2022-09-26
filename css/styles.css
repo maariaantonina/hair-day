@@ -31,16 +31,21 @@ nav ul {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    margin: 0 2rem;
+    margin: 2rem;
 }
 
 nav li {
+    background-color: #d95e52;
+    padding: 1rem;
+    border-radius: 15px;
+    min-width: 60px;
 }
 
 nav li a:link {
     text-decoration: none;
-    color: #0d0d0d;
+    color: #f2f2f2;
     font-weight: 700;
+    letter-spacing: .1rem;
 }
 
 .blog-posts{
@@ -75,6 +80,8 @@ nav li a:link {
 
 footer{
     display: flex;
+    align-items: center;
+    padding: 1rem 3rem ;
 }
 
 footer div {
